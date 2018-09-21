@@ -3,7 +3,7 @@
 - company: Clearstream Services, Luxembourg
   position: IT Security Administrator
   duration: April, 2016 &mdash; Present
-  summary:  I work on the administration team maintaining user access definitions for customer-facing applications in a timely manner and in accordance with the relevant security policies, standards and operational procedures. Some common technologies used include -	<ul class="resume-item-list"><li>Linux</li><li>Active Directory</li><li>SAP</li></ul>
+  summary:  I work on the administration team maintaining user access definitions for customer-facing applications in a timely manner and in accordance with the relevant security policies, standards and operational procedures. Some common technologies used include -	<ul class="resume-item-list"><li>Linux</li><li>Active Directory</li><li>VBA</li></ul>
 
 # Clearstream Cork
 - company: Clearstream Fund Services, Cork, Ireland
@@ -14,6 +14,6 @@
 
 # Citco
 - company: Citco, Dublin
-  position: Local IT Support Intern
+  position: Local IT Support
   duration:   March, 2013  &mdash; Sept, 2013
-  summary: I worked on the rollout of Windows 7 systems. Provided dekstop support to users. I was also studying web development at the Digital Hub Dublin in the evenings during this time.
+  summary: Windows 7 migration and user support.
