@@ -1,15 +1,29 @@
 # Skills
-# Development
-- skill: Development
-  description: HTML5, CSS3, JavaScript, PHP and web design standards. HTML5/Javascript Game Development. Java. Bash scripting. VBA scripting.
 
-# Security
-- skill: IT Security
-  description: Linux admin. PKI. Policies and procedures knowledge. Secure password management.
+# Cybersecurity & Platforms
+- skill: Cybersecurity Platforms
+  description: Extensive experience supporting enterprise cybersecurity platforms including vulnerability management systems, authentication issues, infrastructure integrations, and security troubleshooting.
 
-# IT
-- skill: IT Support
-  description: I have 4 years experience with IT and application support.
+# Technical Support Leadership
+- skill: Technical Support Leadership
+  description: Leading technical support teams handling complex customer escalations, cross-team collaboration with engineering, and diagnosing difficult infrastructure and product issues in enterprise environments.
 
-  skill: Writing
-  description: I have academic experience with writing from my Bachelor of Arts degree and also professional experience with technical writing and documentation.
+# Automation & Scripting
+- skill: Automation & Scripting
+  description: Building internal tools and automation to improve support workflows using Python, Bash, and scripting tools. Experience using automation to reduce repetitive tasks and improve team efficiency.
+
+# AI-Assisted Development
+- skill: AI-Assisted Development
+  description: Leveraging modern AI tools to rapidly prototype and build internal applications, support utilities, and workflow improvements that previously would have taken significantly longer to develop.
+
+# Systems & Infrastructure
+- skill: Systems & Infrastructure
+  description: Linux administration, Active Directory, networking fundamentals, and troubleshooting distributed systems and application infrastructure.
+
+# Testing & Debugging
+- skill: Testing & Debugging
+  description: Experience reproducing complex software issues, debugging customer environments, browser automation using Selenium, and diagnosing problems across multiple system layers.
+
+# Technical Communication
+- skill: Technical Communication
+  description: Clear technical communication with customers, engineering teams, and internal stakeholders including documentation, troubleshooting guides, and escalation summaries.
