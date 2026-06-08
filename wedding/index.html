@@ -741,7 +741,8 @@
             submitBtn.textContent = 'Sending...';
             submitBtn.disabled = true;
             
-            const formData = new URLSearchParams({
+            const formData = {
+                access_key: '32604685-5348-452f-890a-2013b5db81fe',
                 name: document.getElementById('name').value,
                 email: document.getElementById('email').value,
                 attending: document.querySelector('input[name="attending"]:checked').value,
@@ -749,18 +750,22 @@
                 plusOne: document.getElementById('plus-one').value || '',
                 song: document.getElementById('song').value || '',
                 message: document.getElementById('message').value || ''
-            });
-            
-            const scriptUrl = 'https://script.google.com/macros/s/AKfycbxp29gQqzgd3PvIDA7PfbOQFMNzJZ-L5p2Z3ZnagaBNr9fPFctZ5J1PEr-bBL4atqbT8g/exec';
-            
-            fetch(scriptUrl, {
+            };
+
+            fetch('https://api.web3forms.com/submit', {
                 method: 'POST',
-                body: formData,
-                mode: 'no-cors'
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
             })
-            .then(() => {
-                alert('Thank you for your RSVP! We look forward to celebrating with you on 27 August 2026.');
-                document.getElementById('rsvpForm').reset();
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Thank you for your RSVP! We look forward to celebrating with you on 27 August 2026.');
+                    document.getElementById('rsvpForm').reset();
+                } else {
+                    alert('There was an error submitting your RSVP. Please try again or email clmurphy@live.ie');
+                    console.error('Error:', data);
+                }
                 submitBtn.textContent = originalText;
                 submitBtn.disabled = false;
             })
