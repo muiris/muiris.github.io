@@ -755,9 +755,10 @@
             
             fetch(scriptUrl, {
                 method: 'POST',
-                body: formData
+                body: formData,
+                mode: 'no-cors'
             })
-            .then(response => {
+            .then(() => {
                 alert('Thank you for your RSVP! We look forward to celebrating with you on 27 August 2026.');
                 document.getElementById('rsvpForm').reset();
                 submitBtn.textContent = originalText;
